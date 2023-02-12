@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Gustasson</title> 
+    <link rel="stylesheet" href="style.css">
+    
+     <!--charset UTF väljer jag för att det sa fungera med fler språk och exempel ÅÄÖ -->
+    
+</head>
+<body>
+
+
+       
+</head>
+<body>
+<div id="page"> 
+   
+    <nav id="navbar">
+          <h3><a href=#active>Home</a></h3>
+          <h3><a href="https://docs.google.com/document/d/1_KeI30Iok5tbr1rMoJ5IraTvTAaGIR5bbHQKf7Y1kBo/edit">About me</a></h3> 
+          <h3><a href="https://se.linkedin.com/in/victoria-gustafsson-669406248?trk=people-guest_people_search-card">Contact me</a></h3> 
+          <h3><a id="date"></a></h3> <!--för att visa dagens datum-->
+    </nav> 
+    <!-- Här valde jag att lägga ett id med länkar, för att kunna navigera-->
+      
+      
+    <div id="topContainer"> 
+    
+
+        <div id="introContainer">
+             <h3> Hej, mitt namn är</h3>
+            <em><h2> Victoria Gustafsson </h2></em>
+             <p id="introText">
+                Studerar till UX-designer med inriktning på kravhantering. 
+                Har tidigare drivit eget företag i 8 år inom skönhetsbranschen. 
+                Jag är en aktiv tjej på snart 30 år som är van att ha många projekt 
+                på rullning, är en effektiv person som tycker om att lära mig nya saker 
+                och bilda nya kontakter. Jag har ett stort intresse för människor och
+                beteenden. Brinner för att skapa och vara kreativ. 
+                Team-building och förståelse anser jag som nyckeln till en välmående 
+                arbetslats. 
+              </p>
+
+        </div>
+             <!-- Här över är min header, som välkomnar dig till min sida med lite info om mig -->
+             <!--Enligt med webbriktlinjerna har jag valt att lägg till en line-height:1.5 för att göra texten
+              mer rymlig för att få en mer lättläst text för dem med nedsattsyn eller exempelvis dyslexi-->
+        
+            <div id="profilePicContainer">
+            <div id="imageContainer">
+                <img id="profilePic" src="images/namnlostest.jpg"/> 
+            </div>
+               
+            <!--Jag har valt att gör ett id, eftersom jag endast har en cv-bild.-->
+            <div id="clock"></div>
+            <p id="profilePicText">
+            
+             <p>Gymnasium Examen 2012 <br>
+             Egenföretagare 2013-2021 <br>
+             Studerar på Chas Academy 2022-2024 <br>
+
+             </p>
+        </div> 
+          <!--Här valde jag att göra radbryt <br>, för <p> på varje gav mig inte det 
+                resultatet som jag var ute efter.-->
+          
+                <!--Har försökt att jobba med kontrasten mellan text och bakgrund så pass bra att 
+               att jag finner att kontrasten är godkänd, valt att inte använda vitt mot svart 
+               utan en grå mot en mer beige/ off white nyans som jag anser ger en bra kontrast och välbefinnande,
+               har använt mig av color contast checker för att säkerställa, WCAG 1.4.3-->
+              
+    </div>
+          <div>
+          <p id="training">Chas Academy, skolans hemsida hittar </br>
+            du på länken nedanför. </br></p>
+            <!--Extra tydliga länkar för att användaren själv kan avgöra om länken 
+              är intressant att besöka eller ej utan att behöva besöka hemsidan WCAG 2.4.4-->
+            
+          
+          <button id="myBtn">HEMSIDAN</button> <!--En funegerade knapp som går till chas academy hemsidan-->
+        
+          </div>
+          <!--Har gjort attribut namnet som ID eftersom att det använd endast en gång-->
+   
+          <div id="midSectionContainer">
+         
+
+
+        <div id="dividerContainer">
+            <p id="dividerText">Courses & Projects </p>
+            <div class="divider"></div>
+        </div>
+          <!--Text som beskriver innehållet i korten nedanför-->
+       
+          <div id="cardContainer">
+            
+            <div class="card">
+                <img class="imageContainer" src="images/chasacademy.png"/>
+                
+             <h4 class="courseTitle">Course name</h4>
+                <ul class="coursList">
+                 <li>Inroduktion till IT</li> 
+                 <li>Interaktiondesign</li>
+                 <li>Kravhantering</li>
+                 <li>Webbutveckling</li>
+                </ul> 
+            
+            </div>
+             <!--Nämde dessa attrubuter till class,
+                 eftersom att det finns upprepning av dessa delar-->
+
+            <div class="card">
+                <img class="imageContainer" src="images/ux.design.jpg"/>
+
+             <h4 class="courseTitle">UX-designer</h4>
+                 <ul class="coursList">
+                    <li><a href=https://www.figma.com/file/4YwJxfoYfx3LOhuhqx2fgX/F%C3%B6rb%C3%A4ttra-CHAS>Chasacademy</a></li> 
+                    <li><a href=https://docs.google.com/presentation/d/1CDoyuzfkAuTBFEmCHLvxEFvJCX4YRybR5E5ovbJ1h1U/edit>Powerpoint</a></li>
+                    <li>Besök gärna länkarna ovan för att se mina projekt.</p>
+                  
+                 </ul> 
+                
+            </div> 
+                      <!--Inne i carden, har jag valt att länka till andra sidor, olika projekt 
+                      som jag har arbetat med -->
+            
+            <div class="card">
+                <img class="imageContainer" src="images/kravhantering 2.jpg"/>
+                
+             <h4 class="courseTitle">Requirements management</h4>
+                <ul class="coursList">
+                    <li><a href="https://docs.google.com/document/d/1fRtv_J6Pn3K06bzbf0YW-1vxVVoAp0zs39Dba6PqDD0/edit">Kravhantering</a></li> 
+                    <li>Besök gärna läken ovan för att se mina projekt.</li>
+                </ul> 
+            </div>
+                       <!--För att göra det extra tydligt för dem som besöker min webbsida har jag valt att skriva 
+                           med en tydlg information att det går att besöka och att länkarna är klickbara, enligt med 
+                           2.4.4 (Tydliga länkar) där användaren själv kan avgöra om dem vill
+                           besöka länkarna.-->
+            
+        </div> <!--Alla delar som finns i "carden" har jag valt att döpa till 
+                  liknade namn för att lättare kunna hitta vart jag eventuellt vill
+                   ändra eller felsöka-->
+          
+           
+             
+
+        <div id="secondDividerContainer">
+            <div class="divider" id="secondDivider"></div>
+        </div>
+
+        <div id="footer">
+            <div id="contactDetails">
+                <a href="mailto:Victoria.gustafsson@chasacademy.se">Mail: Victoria.gustafsson@chasacademy</a>
+                <a id="phone" href="tel:0704826167">Nr: 070-4826167</a>
+                
+                
+            </div>
+        </div>
+    </div> 
+    
+
+</div>    <!--Här ovan har jag min footer, som jag har gjort som en en href "malito" 
+            och "phone", med en a:hover så att personen som kollar lättare föstår 
+            genom att se att den byter färg också indikerar på att det går att ringa 
+            direkt på numret eller maila"-->
+            <script src="script.js"></script>
+            <script src="test.js"></script>
+</body>
+</html>
